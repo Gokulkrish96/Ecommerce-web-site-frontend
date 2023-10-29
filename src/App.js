@@ -39,7 +39,7 @@ import UserList from "./Components/admin/UserList";
 import UpdateUser from "./Components/admin/UpdateUser";
 import ReviewList from "./Components/admin/ReviewList";
 
-//app 
+
 function App() {
   const [stripeApiKey, setStripeApiKey] = useState("");
   useEffect(() => {
