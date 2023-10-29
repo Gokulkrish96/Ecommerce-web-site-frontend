@@ -41,8 +41,7 @@ import ReviewList from "./Components/admin/ReviewList";
 
 
 function App() {
-  const a = 0;
-  const b = 5;
+  
   const [stripeApiKey, setStripeApiKey] = useState("");
   useEffect(() => {
      store.dispatch(loadUser);
