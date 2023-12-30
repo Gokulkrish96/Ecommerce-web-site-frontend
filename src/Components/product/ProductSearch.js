@@ -66,10 +66,10 @@ export default function ProductSearch() {
                     range={true}
                     marks={{
                       10: `${rupeesSymbol}10`,
-                      20000:`${rupeesSymbol}20,000` 
+                      90000:`${rupeesSymbol}90,000` 
                     }}
                     min={10}
-                    max={20000}
+                    max={90000}
                     defaultValue={price}
                     onChange={(price) => {
                       setPrice(price);
